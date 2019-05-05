@@ -17,8 +17,10 @@ Before we begin, make sure you have the following:
 
 1.  Project Installation Guide
     A.  IBM Watson Cloud
+    
         1.  Navigate to the IBM Cloud webpage here:
             <https://tinyurl.com/y2h9zvaq>
+            
         2.  Fill out your details and create a new IBM Cloud account, or login
             with an existing one
         3.  Once logged in, click the blue button labeled “Create Resource”
