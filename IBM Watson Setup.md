@@ -8,19 +8,14 @@ Before we begin, make sure you have the following:
 -   IBM Cloud account
 -   Computer with webcam/separate USB camera
 -   Zip files of images of yourself and others
-    -   positive_examples.zip: as many images as you can gather that have you in
-        the picture, but can include both group photos and selfies; 100 images
-        would be ideal but if you have less they should still work
-    -   negative_examples.zip: images of friends or stock photos of various
-        people to best train the classifier on when to not recognize you; 100
-        images would be ideal for this as well
+    -   positive_examples.zip: as many images as you can gather that have you in the picture, but can include both group photos and             selfies; 100 images would be ideal but if you have less they should still work
+    -   negative_examples.zip: images of friends or stock photos of various people to best train the classifier on when to not recognize         you; 100 images would be ideal for this as well
 
 1.  Project Installation Guide
     A.  IBM Watson Cloud
     
         1.  Navigate to the IBM Cloud webpage here:
             <https://tinyurl.com/y2h9zvaq>
-            
         2.  Fill out your details and create a new IBM Cloud account, or login
             with an existing one
         3.  Once logged in, click the blue button labeled “Create Resource”
@@ -42,6 +37,7 @@ Before we begin, make sure you have the following:
             can navigate to this page later to retrieve your credentials
 
     B.  Unity Watson SDK
+    
         1.  Navigate to and download the Unity SDK package here:
             <https://tinyurl.com/yxol2ulf>
         2.  Extract the files to a temporary folder and keep the folder open
@@ -60,6 +56,7 @@ Before we begin, make sure you have the following:
             Watson SDK is now installed
 
     C.  Unity Scene Setup
+    
         1.  Delete everything in the scene except the Main Camera; we leave that
             to prevent error messages on screen
         2.  Right click and Create Empty; name it to Face Detect as it will
@@ -89,24 +86,19 @@ Before we begin, make sure you have the following:
             information
 
     D.  Camera Render Script Setup
+    
         1.  Open the CameraRender.cs script
         2.  Type the following lines at the top of your script:
+            ![](media/f7cec1b2cb1786d9c281b56deaa4557f.jpg)
+            a)  These lines make sure you’re using the correct Unity packages as well as
+                features that are important for the project
+        3.  Create a public Image and FaceDetector, which will hold our Canvas image and
+        FaceDetector.cs script respectively
+            ![](media/c9ebd4c00b6e1e794a74d2fae132e1d5.jpg)
 
-![](media/f7cec1b2cb1786d9c281b56deaa4557f.jpg)
-
-1.  These lines make sure you’re using the correct Unity packages as well as
-    features that are important for the project
-
-2.  Create a public Image and FaceDetector, which will hold our Canvas image and
-    FaceDetector.cs script respectively  
-    
-
-    ![](media/c9ebd4c00b6e1e794a74d2fae132e1d5.jpg)
-
-    1.  Navigate back to Unity and under the Inspector for Camera Render click
-        “Add Component” and type in “Camera Render”; select the C\# script that
-        comes up and that will add our CameraRender.cs script to the Camera
-        Render empty
+            a)  Navigate back to Unity and under the Inspector for Camera Render click
+            “Add Component” and type in “Camera Render”; select the C\# script that
+            comes up and that will add our CameraRender.cs script to the Camera Render empty
 
         1.  Look at the Inspector again and you should see that “Camera Render
             (Script)” now has two open spots for Overlay and Fd (unless you
