@@ -1,10 +1,6 @@
 IBM Watson Facial Recognition
 Installation Guide
 
-![](https://drive.google.com/open?id=18gLtYjPr_n9EqLhErGK3hwYWlyNzcUNv)
-![](https://github.com/atuican/WatsonFacialRecognition/blob/master/media/CameraRender1.jpg)
-<https://tinyurl.com/yxol2ulf>
-
 Before we begin, make sure you have the following:
 -   Unity (any version works, but I used 2018.3.0f2)
     -   Unity Hub preferred
@@ -18,7 +14,6 @@ Before we begin, make sure you have the following:
 1.  Project Installation Guide
 
     A.  IBM Watson Cloud
-    
         1.  Navigate to the IBM Cloud webpage here:
             <https://tinyurl.com/y2h9zvaq>
         2.  Fill out your details and create a new IBM Cloud account, or login with an existing one
@@ -35,10 +30,8 @@ Before we begin, make sure you have the following:
         10. Under “Services”, click on the “Visual Recognition” service you created
         11. You are now set on the IBM Watson side of the project; make sure you can navigate to this page later to retrieve your
             credentials
-
-
+            
     B.  Unity Watson SDK
-    
         1.  Navigate to and download the Unity SDK package here:
             <https://tinyurl.com/yxol2ulf>
         2.  Extract the files to a temporary folder and keep the folder open
@@ -52,9 +45,7 @@ Before we begin, make sure you have the following:
         6.  Move the folder straight into Assets in Unity and wait for it to import
         7.  Once the assets are imported you should get a message that the Watson SDK is now installed
 
-
     C.  Unity Scene Setup
-    
         1.  Delete everything in the scene except the Main Camera; we leave that to prevent error messages on screen
         2.  Right click and Create Empty; name it to Face Detect as it will house our Face Detection script later
         3.  Right click and under UI click Canvas; an EventSystem is created with the Canvas to keep track of any interactions, 
@@ -73,9 +64,7 @@ Before we begin, make sure you have the following:
         10. At this point the Unity Scene is setup and we just need to work on the scripts; navigate to the Script Setup categories
             for more information
 
-
     D.  Camera Render Script Setup
-    
         1.  Open the CameraRender.cs script
         2.  Type the following lines at the top of your script:
             ![](https://drive.google.com/open?id=18gLtYjPr_n9EqLhErGK3hwYWlyNzcUNv)
@@ -119,9 +108,7 @@ Before we begin, make sure you have the following:
         10. With the CaptureImage() function selected, it will run every time you click the button; this is all we need for
             CameraRender.cs
 
-
     E.  Face Detector Script Setup
-
         1.  Open the FaceDetector.cs script
         2.  You will find a variety of code and if statements throughout the code; we will first go over what code we can remove as it
             is not all required for the program to run; before you remove however, make a note first of which lines they are at and    
@@ -176,7 +163,6 @@ Before we begin, make sure you have the following:
                 “private IEnumerator” otherwise the code might not work.
             f)  The only change you can make is the “VersionDate”, which can be set to the current date
 
-
     F.  Important FaceDetector() Functions – Next is a collection of functions and function calls that each have different purposes 
         and are required to either classifiy, train classifiers, and keep track of the server. I created this as a separate category 
         to better organize the information, and I’ve split the code sections below into their respective steps in sequence to better
@@ -184,7 +170,6 @@ Before we begin, make sure you have the following:
         function, but I went into depth anyways to make sure you understand what it all does. Remember that most of these functions 
         are required for the program to work; you may omit certain ones depending on what you need to do, but I found it more useful 
         to have them but not call them just in case.
-        
         1.  DetectFaces() 
             ![](media/6466e229606ed50ca26775cd0baa3997.jpg)
             a)  DetectFaces() is called inside the CameraRender.cs script as fd.DetectFaces(), where Fd we set as the FaceDetector.cs
@@ -257,7 +242,6 @@ Before we begin, make sure you have the following:
 
 
     G.  Afterword
-
         1.  If you’re encountering issues with the program and require help, feel free to reach out to me here:
             <albertotuican@yahoo.com>
             a)  Alternatively, you should join the Watson Developer Community Slack as it has helped me out immensely in figuring out
