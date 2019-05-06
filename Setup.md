@@ -8,8 +8,8 @@ Before we begin, make sure you have the following:
 -   IBM Cloud account
 -   Computer with webcam/separate USB camera
 -   Zip files of images of yourself and others
-    -   positive_examples.zip: as many images as you can gather that have you in the picture, but can include both group photos and             selfies; 100 images would be ideal but if you have less they should still work
-    -   negative_examples.zip: images of friends or stock photos of various people to best train the classifier on when to not recognize         you; 100 images would be ideal for this as well
+    -   positive_examples.zip: as many images as you can gather that have you in the picture, but can include both group photos and selfies; 100 images would be ideal but if you have less they should still work
+    -   negative_examples.zip: images of friends or stock photos of various people to best train the classifier on when to not recognize you; 100 images would be ideal for this as well
 
 1.  Project Installation Guide
 
