@@ -37,6 +37,7 @@ Before we begin, make sure you have the following:
         11. You are now set on the IBM Watson side of the project; make sure you
             can navigate to this page later to retrieve your credentials
 
+
     B.  Unity Watson SDK
     
         1.  Navigate to and download the Unity SDK package here:
@@ -55,6 +56,7 @@ Before we begin, make sure you have the following:
             import
         7.  Once the assets are imported you should get a message that the
             Watson SDK is now installed
+
 
     C.  Unity Scene Setup
     
@@ -85,6 +87,7 @@ Before we begin, make sure you have the following:
         10. At this point the Unity Scene is setup and we just need to work on
             the scripts; navigate to the Script Setup categories for more
             information
+
 
     D.  Camera Render Script Setup
     
@@ -147,6 +150,7 @@ Before we begin, make sure you have the following:
             to public (simply write public and a space in front of class)
         10. With the CaptureImage() function selected, it will run every time you click
             the button; this is all we need for CameraRender.cs
+
 
     E.  Face Detector Script Setup
 
@@ -225,7 +229,8 @@ Before we begin, make sure you have the following:
                 the code might not work.
             f)  The only change you can make is the “VersionDate”, which can be set to the
                 current date
-                
+
+
     F.  Important FaceDetector() Functions – Next is a collection of functions and
         function calls that each have different purposes and are required to either
         classifiy, train classifiers, and keep track of the server. I created this
@@ -335,6 +340,7 @@ Before we begin, make sure you have the following:
                          classified your image but doesn’t recognize you properly, in which
                          cause you could output a request to the user to retake the photo
                          and/or restart the program.
+
 
     G.  Afterword
 
