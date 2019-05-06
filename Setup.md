@@ -78,7 +78,8 @@ Before we begin, make sure you have the following:
             a)  These lines make sure you’re using the correct Unity packages as well as features that are important for the project
         3.  Create a public Image and FaceDetector, which will hold our Canvas image and FaceDetector.cs script respectively
             ![](media/CameraRender2.jpg)
-            a)  Navigate back to Unity and under the Inspector for Camera Render click “Add Component” and type in “Camera Render”;                     select the C\# script that comes up and that will add our CameraRender.cs script to the Camera Render empty
+            a)  Navigate back to Unity and under the Inspector for Camera Render click “Add Component” and type in “Camera Render”;
+                select the C\# script that comes up and that will add our CameraRender.cs script to the Camera Render empty
                i)    Look at the Inspector again and you should see that “Camera Render (Script)” now has two open spots for Overlay 
                      and Fd (unless you changed the names, which would reflect those changes)
                ii)   Click and drag the FaceDetector.cs script in Assets to the Fd space in Camera Render (Script); likewise, under 
