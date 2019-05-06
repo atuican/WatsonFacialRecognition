@@ -29,7 +29,7 @@ Before we begin, make sure you have the following:
         8.  Under your Dashboard you should now see a “Resource summary” tab
         9.  Click on the “Services” link in “Resource summary”
         10. Under “Services”, click on the “Visual Recognition” service you created
-        11. You are now set on the IBM Watson side of the project; make sure you can navigate to this page later to retrieve your credentials
+        11. You are now set on the IBM Watson side of the project; make sure you can navigate to this page later to retrieve your                   credentials
 
 
     B.  Unity Watson SDK
