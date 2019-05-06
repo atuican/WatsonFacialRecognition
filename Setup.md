@@ -29,7 +29,7 @@ Before we begin, make sure you have the following:
         8.  Under your Dashboard you should now see a “Resource summary” tab
         9.  Click on the “Services” link in “Resource summary”
         10. Under “Services”, click on the “Visual Recognition” service you created
-        11. You are now set on the IBM Watson side of the project; make sure you can navigate to this page later to retrieve your                   credentials
+        11. You are now set on the IBM Watson side of the project; make sure you can navigate to this page later to retrieve your credentials
 
 
     B.  Unity Watson SDK
@@ -52,14 +52,14 @@ Before we begin, make sure you have the following:
     
         1.  Delete everything in the scene except the Main Camera; we leave that to prevent error messages on screen
         2.  Right click and Create Empty; name it to Face Detect as it will house our Face Detection script later
-        3.  Right click and under UI click Canvas; an EventSystem is created with the Canvas to keep track of any interactions, which               you can leave as is
+        3.  Right click and under UI click Canvas; an EventSystem is created with the Canvas to keep track of any interactions, which you can leave as is
         4.  Right click and create another Empty; rename it to Camera Render as it will house the Camera Render script later
         5.  Right click on the Canvas and create a UI -\> Image; this image will hold our webcam information
-        6.  Right click on the Canvas again and create a UI -\> Text; the text will show any pertinent information to the image                     classifier
-        7.  Right click again on Canvas and create a UI -\> Button; the button will enable us to have a method to start and restart the             Visual Recognition classifier
-        8.  In Assets, navigate to Watson -\> Examples -\> Service Examples -\> Scripts and copy the ExampleVisualRecognition.cs script             into the top level of the Assets folder; rename it to FaceDetector.cs as we will use this script as a base for our Face                 Detection and classification program
-        9.  Right click in Assets and click Create -\> C\# Script; name this script CameraRender.cs, which will take in the visual                   information and pass it to FaceDetector.cs
-        10. At this point the Unity Scene is setup and we just need to work on the scripts; navigate to the Script Setup categories for             more information
+        6.  Right click on the Canvas again and create a UI -\> Text; the text will show any pertinent information to the image classifier
+        7.  Right click again on Canvas and create a UI -\> Button; the button will enable us to have a method to start and restart the Visual Recognition classifier
+        8.  In Assets, navigate to Watson -\> Examples -\> Service Examples -\> Scripts and copy the ExampleVisualRecognition.cs script into the top level of the Assets folder; rename it to FaceDetector.cs as we will use this script as a base for our Face Detection and classification program
+        9.  Right click in Assets and click Create -\> C\# Script; name this script CameraRender.cs, which will take in the visual information and pass it to FaceDetector.cs
+        10. At this point the Unity Scene is setup and we just need to work on the scripts; navigate to the Script Setup categories for more information
 
 
     D.  Camera Render Script Setup
