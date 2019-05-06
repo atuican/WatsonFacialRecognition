@@ -74,7 +74,7 @@ Before we begin, make sure you have the following:
     
         1.  Open the CameraRender.cs script
         2.  Type the following lines at the top of your script:
-            ![](https://github.com/atuican/WatsonFacialRecognition/blob/master/media/CameraRender1.jpg)
+            ![](https://drive.google.com/open?id=18gLtYjPr_n9EqLhErGK3hwYWlyNzcUNv)
             a)  These lines make sure you’re using the correct Unity packages as well as features that are important for the project
         3.  Create a public Image and FaceDetector, which will hold our Canvas image and FaceDetector.cs script respectively
             ![](media/CameraRender2.jpg)
