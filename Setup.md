@@ -1,6 +1,10 @@
 IBM Watson Facial Recognition
 Installation Guide
 
+![](https://drive.google.com/open?id=18gLtYjPr_n9EqLhErGK3hwYWlyNzcUNv)
+![](https://github.com/atuican/WatsonFacialRecognition/blob/master/media/CameraRender1.jpg)
+<https://tinyurl.com/yxol2ulf>
+
 Before we begin, make sure you have the following:
 -   Unity (any version works, but I used 2018.3.0f2)
     -   Unity Hub preferred
